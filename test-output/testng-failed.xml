@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.stepDefinition.Steps">
+        <methods>
+          <include name="i_am_on_Swagger_portal_to_get_all_video_games"/>
+          <include name="i_update_a_record_on_specific_ID"/>
+          <include name="verify_it_has_updated_with_a_response_message"/>
+          <include name="i_verify_with_response_message"/>
+          <include name="verify_the_record_has_deleted_with_response_message"/>
+          <include name="i_added_new_videoGame_in_database"/>
+          <include name="i_delete_any_record_from_database"/>
+        </methods>
+      </class> <!-- com.stepDefinition.Steps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

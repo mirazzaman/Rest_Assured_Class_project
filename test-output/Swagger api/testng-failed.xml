@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Swagger api]">
+  <listeners>
+    <listener class-name="com.report.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="BDD TEST(failed)">
+    <classes>
+      <class name="com.stepDefinition.Steps">
+        <methods>
+          <include name="i_update_a_record_on_specific_ID"/>
+        </methods>
+      </class> <!-- com.stepDefinition.Steps -->
+    </classes>
+  </test> <!-- BDD TEST(failed) -->
+</suite> <!-- Failed suite [Swagger api] -->
